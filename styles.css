@@ -84,9 +84,8 @@ footer {
 
 @media (max-width: 768px) {
   .flexbox-container {
-    flex-direction: row;/* Stack items horizontally*/
-    flex-wrap: nowrap;
-    align-items: center;    /* Center them horizontally */
+    flex-direction: column;/* Stack items horizontally*/
+    align-items: left;  
     gap: 10px;            
   }
 }
