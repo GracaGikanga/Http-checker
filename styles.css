@@ -83,9 +83,10 @@ footer {
 }
 
 @media (max-width: 768px) {
+
   .flexbox-container {
     flex-direction: column;/* Stack items horizontally*/
-    align-items: left;  
+    align-items: flex-start;  
     gap: 10px;            
   }
 }
