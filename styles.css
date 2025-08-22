@@ -87,7 +87,6 @@ footer {
     flex-direction: row;/* Stack items horizontally*/
     flex-wrap: nowrap;
     align-items: center;    /* Center them horizontally */
-    gap: 10px;  
-    flex-wrap:nowrap           
+    gap: 10px;            
   }
 }
