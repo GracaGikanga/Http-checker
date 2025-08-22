@@ -87,6 +87,14 @@ footer {
   .flexbox-container {
     flex-direction: column;/* Stack items horizontally*/
     align-items: flex-start;  
-    gap: 10px;            
+    gap: 10px; 
+    max-width: 100vw;
+    box-sizing:border-box;
+    overflow-x:hidden;           
+  }
+
+  .flex-item{
+    max-width: 100%;
+    box-sizing: border-box;
   }
 }
