@@ -84,12 +84,10 @@ footer {
 }
 
 @media (max-width: 480px) {
-body {
-  background-color: yellow;
-}
+
 
   .flexbox-container {
-    flex-direction: row;
+    flex-direction: column;
     align-items: flex-start;  
     gap: 1rem; 
     max-width: 100vw;
